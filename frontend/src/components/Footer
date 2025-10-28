@@ -1,0 +1,21 @@
+import { Code2 } from 'lucide-react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-center space-x-2 mb-4">
+          <Code2 className="h-6 w-6 text-blue-600" />
+          <span className="text-lg font-bold text-gray-900 dark:text-white">
+            Code Arena
+          </span>
+        </div>
+        <p className="text-center text-gray-600 dark:text-gray-400 text-sm">
+          © 2025 Code Arena. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
